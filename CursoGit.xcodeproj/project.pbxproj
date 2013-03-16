@@ -18,6 +18,7 @@
 		ED67816616F4772800597826 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED67816516F4772800597826 /* Default-568h@2x.png */; };
 		ED67816916F4772800597826 /* AGTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67816816F4772800597826 /* AGTViewController.m */; };
 		ED67816C16F4772800597826 /* AGTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67816A16F4772800597826 /* AGTViewController.xib */; };
+		ED67817316F47BCE00597826 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ED67817216F47BCE00597826 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		ED67816716F4772800597826 /* AGTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTViewController.h; sourceTree = "<group>"; };
 		ED67816816F4772800597826 /* AGTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTViewController.m; sourceTree = "<group>"; };
 		ED67816B16F4772800597826 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AGTViewController.xib; sourceTree = "<group>"; };
+		ED67817216F47BCE00597826 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		ED67815616F4772800597826 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ED67817216F47BCE00597826 /* .gitignore */,
 				ED67815716F4772800597826 /* CursoGit-Info.plist */,
 				ED67815816F4772800597826 /* InfoPlist.strings */,
 				ED67815B16F4772800597826 /* main.m */,
@@ -164,6 +167,7 @@
 				ED67816416F4772800597826 /* Default@2x.png in Resources */,
 				ED67816616F4772800597826 /* Default-568h@2x.png in Resources */,
 				ED67816C16F4772800597826 /* AGTViewController.xib in Resources */,
+				ED67817316F47BCE00597826 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
