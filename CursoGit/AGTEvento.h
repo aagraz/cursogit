@@ -13,6 +13,6 @@
 @property (nonatomic, strong) NSString *nombre;
 @property (nonatomic, strong) NSDate *hora;
 
--(NSArray *) eventos;
+-(NSMutableArray *) eventos;
 
 @end
