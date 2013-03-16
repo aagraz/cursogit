@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED67815016F4772800597826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED67814F16F4772800597826 /* UIKit.framework */; };
+		ED67815216F4772800597826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED67815116F4772800597826 /* Foundation.framework */; };
+		ED67815416F4772800597826 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED67815316F4772800597826 /* CoreGraphics.framework */; };
+		ED67815A16F4772800597826 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED67815816F4772800597826 /* InfoPlist.strings */; };
+		ED67815C16F4772800597826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67815B16F4772800597826 /* main.m */; };
+		ED67816016F4772800597826 /* AGTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67815F16F4772800597826 /* AGTAppDelegate.m */; };
+		ED67816216F4772800597826 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ED67816116F4772800597826 /* Default.png */; };
+		ED67816416F4772800597826 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED67816316F4772800597826 /* Default@2x.png */; };
+		ED67816616F4772800597826 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED67816516F4772800597826 /* Default-568h@2x.png */; };
+		ED67816916F4772800597826 /* AGTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67816816F4772800597826 /* AGTViewController.m */; };
+		ED67816C16F4772800597826 /* AGTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67816A16F4772800597826 /* AGTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED67814C16F4772800597826 /* CursoGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED67814F16F4772800597826 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED67815116F4772800597826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED67815316F4772800597826 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED67815716F4772800597826 /* CursoGit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CursoGit-Info.plist"; sourceTree = "<group>"; };
+		ED67815916F4772800597826 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED67815B16F4772800597826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED67815D16F4772800597826 /* CursoGit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CursoGit-Prefix.pch"; sourceTree = "<group>"; };
+		ED67815E16F4772800597826 /* AGTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTAppDelegate.h; sourceTree = "<group>"; };
+		ED67815F16F4772800597826 /* AGTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTAppDelegate.m; sourceTree = "<group>"; };
+		ED67816116F4772800597826 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ED67816316F4772800597826 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ED67816516F4772800597826 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED67816716F4772800597826 /* AGTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTViewController.h; sourceTree = "<group>"; };
+		ED67816816F4772800597826 /* AGTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTViewController.m; sourceTree = "<group>"; };
+		ED67816B16F4772800597826 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AGTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED67814916F4772800597826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED67815016F4772800597826 /* UIKit.framework in Frameworks */,
+				ED67815216F4772800597826 /* Foundation.framework in Frameworks */,
+				ED67815416F4772800597826 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED67814316F4772800597826 = {
+			isa = PBXGroup;
+			children = (
+				ED67815516F4772800597826 /* CursoGit */,
+				ED67814E16F4772800597826 /* Frameworks */,
+				ED67814D16F4772800597826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED67814D16F4772800597826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED67814C16F4772800597826 /* CursoGit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED67814E16F4772800597826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED67814F16F4772800597826 /* UIKit.framework */,
+				ED67815116F4772800597826 /* Foundation.framework */,
+				ED67815316F4772800597826 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED67815516F4772800597826 /* CursoGit */ = {
+			isa = PBXGroup;
+			children = (
+				ED67815E16F4772800597826 /* AGTAppDelegate.h */,
+				ED67815F16F4772800597826 /* AGTAppDelegate.m */,
+				ED67816716F4772800597826 /* AGTViewController.h */,
+				ED67816816F4772800597826 /* AGTViewController.m */,
+				ED67816A16F4772800597826 /* AGTViewController.xib */,
+				ED67815616F4772800597826 /* Supporting Files */,
+			);
+			path = CursoGit;
+			sourceTree = "<group>";
+		};
+		ED67815616F4772800597826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED67815716F4772800597826 /* CursoGit-Info.plist */,
+				ED67815816F4772800597826 /* InfoPlist.strings */,
+				ED67815B16F4772800597826 /* main.m */,
+				ED67815D16F4772800597826 /* CursoGit-Prefix.pch */,
+				ED67816116F4772800597826 /* Default.png */,
+				ED67816316F4772800597826 /* Default@2x.png */,
+				ED67816516F4772800597826 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED67814B16F4772800597826 /* CursoGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED67816F16F4772800597826 /* Build configuration list for PBXNativeTarget "CursoGit" */;
+			buildPhases = (
+				ED67814816F4772800597826 /* Sources */,
+				ED67814916F4772800597826 /* Frameworks */,
+				ED67814A16F4772800597826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CursoGit;
+			productName = CursoGit;
+			productReference = ED67814C16F4772800597826 /* CursoGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED67814416F4772800597826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AGT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Agbo;
+			};
+			buildConfigurationList = ED67814716F4772800597826 /* Build configuration list for PBXProject "CursoGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED67814316F4772800597826;
+			productRefGroup = ED67814D16F4772800597826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED67814B16F4772800597826 /* CursoGit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED67814A16F4772800597826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED67815A16F4772800597826 /* InfoPlist.strings in Resources */,
+				ED67816216F4772800597826 /* Default.png in Resources */,
+				ED67816416F4772800597826 /* Default@2x.png in Resources */,
+				ED67816616F4772800597826 /* Default-568h@2x.png in Resources */,
+				ED67816C16F4772800597826 /* AGTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED67814816F4772800597826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED67815C16F4772800597826 /* main.m in Sources */,
+				ED67816016F4772800597826 /* AGTAppDelegate.m in Sources */,
+				ED67816916F4772800597826 /* AGTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED67815816F4772800597826 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED67815916F4772800597826 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED67816A16F4772800597826 /* AGTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED67816B16F4772800597826 /* en */,
+			);
+			name = AGTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED67816D16F4772800597826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED67816E16F4772800597826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED67817016F4772800597826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoGit/CursoGit-Prefix.pch";
+				INFOPLIST_FILE = "CursoGit/CursoGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED67817116F4772800597826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoGit/CursoGit-Prefix.pch";
+				INFOPLIST_FILE = "CursoGit/CursoGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED67814716F4772800597826 /* Build configuration list for PBXProject "CursoGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED67816D16F4772800597826 /* Debug */,
+				ED67816E16F4772800597826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED67816F16F4772800597826 /* Build configuration list for PBXNativeTarget "CursoGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED67817016F4772800597826 /* Debug */,
+				ED67817116F4772800597826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED67814416F4772800597826 /* Project object */;
+}
