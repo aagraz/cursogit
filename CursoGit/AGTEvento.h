@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface AGTEvento : NSObject
+@property (nonatomic, strong) NSDate *fecha;
 
 @end
