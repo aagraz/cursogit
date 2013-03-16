@@ -20,6 +20,7 @@
 		ED67816C16F4772800597826 /* AGTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67816A16F4772800597826 /* AGTViewController.xib */; };
 		ED67817316F47BCE00597826 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ED67817216F47BCE00597826 /* .gitignore */; };
 		ED67817716F4868500597826 /* AGTAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67817616F4868500597826 /* AGTAlumno.m */; };
+		ED67817A16F48AFA00597826 /* AGTEvento.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67817916F48AFA00597826 /* AGTEvento.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		ED67817216F47BCE00597826 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		ED67817516F4868500597826 /* AGTAlumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTAlumno.h; sourceTree = "<group>"; };
 		ED67817616F4868500597826 /* AGTAlumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTAlumno.m; sourceTree = "<group>"; };
+		ED67817816F48AFA00597826 /* AGTEvento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTEvento.h; sourceTree = "<group>"; };
+		ED67817916F48AFA00597826 /* AGTEvento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTEvento.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 			children = (
 				ED67817516F4868500597826 /* AGTAlumno.h */,
 				ED67817616F4868500597826 /* AGTAlumno.m */,
+				ED67817816F48AFA00597826 /* AGTEvento.h */,
+				ED67817916F48AFA00597826 /* AGTEvento.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				ED67816016F4772800597826 /* AGTAppDelegate.m in Sources */,
 				ED67816916F4772800597826 /* AGTViewController.m in Sources */,
 				ED67817716F4868500597826 /* AGTAlumno.m in Sources */,
+				ED67817A16F48AFA00597826 /* AGTEvento.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
