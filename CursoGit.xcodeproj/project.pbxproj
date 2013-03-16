@@ -19,6 +19,7 @@
 		ED67816916F4772800597826 /* AGTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67816816F4772800597826 /* AGTViewController.m */; };
 		ED67816C16F4772800597826 /* AGTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67816A16F4772800597826 /* AGTViewController.xib */; };
 		ED67817316F47BCE00597826 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ED67817216F47BCE00597826 /* .gitignore */; };
+		ED67817716F4868500597826 /* AGTAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67817616F4868500597826 /* AGTAlumno.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		ED67816816F4772800597826 /* AGTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTViewController.m; sourceTree = "<group>"; };
 		ED67816B16F4772800597826 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AGTViewController.xib; sourceTree = "<group>"; };
 		ED67817216F47BCE00597826 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		ED67817516F4868500597826 /* AGTAlumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTAlumno.h; sourceTree = "<group>"; };
+		ED67817616F4868500597826 /* AGTAlumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTAlumno.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		ED67815516F4772800597826 /* CursoGit */ = {
 			isa = PBXGroup;
 			children = (
+				ED67817416F4865B00597826 /* Model */,
 				ED67815E16F4772800597826 /* AGTAppDelegate.h */,
 				ED67815F16F4772800597826 /* AGTAppDelegate.m */,
 				ED67816716F4772800597826 /* AGTViewController.h */,
@@ -108,6 +112,15 @@
 				ED67816516F4772800597826 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED67817416F4865B00597826 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED67817516F4868500597826 /* AGTAlumno.h */,
+				ED67817616F4868500597826 /* AGTAlumno.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +194,7 @@
 				ED67815C16F4772800597826 /* main.m in Sources */,
 				ED67816016F4772800597826 /* AGTAppDelegate.m in Sources */,
 				ED67816916F4772800597826 /* AGTViewController.m in Sources */,
+				ED67817716F4868500597826 /* AGTAlumno.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
