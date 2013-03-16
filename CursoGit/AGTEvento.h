@@ -15,4 +15,7 @@
 
 -(NSMutableArray *) eventos;
 
+
+
+-(NSDictionary *) eventos;
 @end
