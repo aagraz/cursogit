@@ -10,4 +10,6 @@
 
 @interface AGTAlumno : NSObject
 
+@property (nonatomic) BOOL registrado;
+
 @end
