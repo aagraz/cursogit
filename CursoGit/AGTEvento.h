@@ -11,4 +11,7 @@
 @interface AGTEvento : NSObject
 @property (nonatomic, strong) NSDate *fecha;
 
+
+
+-(NSDictionary *) eventos;
 @end
