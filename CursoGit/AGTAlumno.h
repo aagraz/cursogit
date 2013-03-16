@@ -12,5 +12,7 @@
 
 @property (nonatomic, copy) NSString *nombre;
 @property (nonatomic) BOOL registrado;
+@property (nonatomic, copy) NSString *apellidos;
+@property (nonatomic, copy) NSString *telefono;
 
 @end
