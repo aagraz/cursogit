@@ -21,6 +21,8 @@
 		ED67817316F47BCE00597826 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ED67817216F47BCE00597826 /* .gitignore */; };
 		ED67817716F4868500597826 /* AGTAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67817616F4868500597826 /* AGTAlumno.m */; };
 		ED67817A16F48AFA00597826 /* AGTEvento.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67817916F48AFA00597826 /* AGTEvento.m */; };
+		ED67817E16F4B9CC00597826 /* AGTEventosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67817C16F4B9CC00597826 /* AGTEventosViewController.m */; };
+		ED67817F16F4B9CC00597826 /* AGTEventosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67817D16F4B9CC00597826 /* AGTEventosViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,9 @@
 		ED67817616F4868500597826 /* AGTAlumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTAlumno.m; sourceTree = "<group>"; };
 		ED67817816F48AFA00597826 /* AGTEvento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTEvento.h; sourceTree = "<group>"; };
 		ED67817916F48AFA00597826 /* AGTEvento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTEvento.m; sourceTree = "<group>"; };
+		ED67817B16F4B9CC00597826 /* AGTEventosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTEventosViewController.h; sourceTree = "<group>"; };
+		ED67817C16F4B9CC00597826 /* AGTEventosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTEventosViewController.m; sourceTree = "<group>"; };
+		ED67817D16F4B9CC00597826 /* AGTEventosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTEventosViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,9 @@
 				ED67816816F4772800597826 /* AGTViewController.m */,
 				ED67816A16F4772800597826 /* AGTViewController.xib */,
 				ED67815616F4772800597826 /* Supporting Files */,
+				ED67817B16F4B9CC00597826 /* AGTEventosViewController.h */,
+				ED67817C16F4B9CC00597826 /* AGTEventosViewController.m */,
+				ED67817D16F4B9CC00597826 /* AGTEventosViewController.xib */,
 			);
 			path = CursoGit;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 				ED67816616F4772800597826 /* Default-568h@2x.png in Resources */,
 				ED67816C16F4772800597826 /* AGTViewController.xib in Resources */,
 				ED67817316F47BCE00597826 /* .gitignore in Resources */,
+				ED67817F16F4B9CC00597826 /* AGTEventosViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +210,7 @@
 				ED67816916F4772800597826 /* AGTViewController.m in Sources */,
 				ED67817716F4868500597826 /* AGTAlumno.m in Sources */,
 				ED67817A16F48AFA00597826 /* AGTEvento.m in Sources */,
+				ED67817E16F4B9CC00597826 /* AGTEventosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
