@@ -15,5 +15,6 @@
 @property (nonatomic, copy) NSString *apellidos;
 @property (nonatomic, copy) NSNumber *telefono;
 @property (nonatomic, copy) NSString *direccion;
+@property (nonatomic, copy) NSString *cimbelMatutino;
 
 @end
