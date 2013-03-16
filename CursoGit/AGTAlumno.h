@@ -10,6 +10,7 @@
 
 @interface AGTAlumno : NSObject
 
+@property (nonatomic, copy) NSString *nombre;
 @property (nonatomic) BOOL registrado;
 
 @end
