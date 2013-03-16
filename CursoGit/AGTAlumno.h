@@ -14,5 +14,6 @@
 @property (nonatomic) BOOL registrado;
 @property (nonatomic, copy) NSString *apellidos;
 @property (nonatomic, copy) NSString *telefono;
+@property (nonatomic, copy) NSString *direccion;
 
 @end
